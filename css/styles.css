@@ -1,0 +1,20 @@
+:root {
+    --spacing: calc(10% / 6);
+}
+
+img {
+    float: left;
+    margin: var(--spacing);
+    width: 30%;
+}
+
+h1 {
+    border-bottom: 1px solid #f1f1f1;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 800;
+    margin: var(--spacing);
+    padding-bottom: var(--spacing);
+    width: 30%;
+    text-transform: uppercase;
+}
